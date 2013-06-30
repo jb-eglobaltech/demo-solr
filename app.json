@@ -2,6 +2,5 @@
 	"app" : "demo-solr",
     "name": "solr",
     "services": [
-    	"ckan"
     ]
 }

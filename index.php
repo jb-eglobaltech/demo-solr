@@ -22,7 +22,7 @@
       /* Custom container */
       .container {
         margin: 0 auto;
-        max-width: 700px;
+        max-width: 850px;
       }
       .container > hr {
         margin: 30px 0;
