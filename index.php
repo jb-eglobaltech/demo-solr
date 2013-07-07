@@ -190,7 +190,7 @@
                             <button type="button" class="close" data-dismiss="alert">x</button>\
                             <p>Last Updated: '+ getTime() + '</p>\
                             <p>\
-                              URL: ' + $service_url + '<br />\
+                              URL: <a style="color:inherit;" href="http://'+ $service_url +'/demo-'+ $service_name +'">' + $service_url + '/demo-'+ $service_name +'</a><br />\
                               Request ID: ' + data['id'] + '<br />\
                               Name: ' + data['name'] + '<br />' +
                               data['message'] + 
