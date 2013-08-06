@@ -129,7 +129,7 @@
               <div id="collapseTwo-<?php echo $service_name; ?>" class="accordion-body collapse">
                 <div class="accordion-inner">
                   <pre>
-                    <?php print_r($details); ?>
+                    <?php print_r($details['automatic']['ec2']); ?>
                   </pre>
                 </div>
               </div>
@@ -144,7 +144,7 @@
 
     <div id="footer">
       <div class="container">
-        <p class="muted credit">Opscode Chef Deployment Demo by <a href="http://martinbean.co.uk">Jai Bapna</a></p>
+        <p class="muted credit">Opscode Chef Deployment Demo by <a href="http://jaibapna.com">Jai Bapna</a></p>
       </div>
     </div>
 
@@ -190,7 +190,6 @@
                             <button type="button" class="close" data-dismiss="alert">x</button>\
                             <p>Last Updated: '+ getTime() + '</p>\
                             <p>\
-                              URL: <a style="color:inherit;" href="http://'+ $service_url +'/demo-'+ $service_name +'">' + $service_url + '/demo-'+ $service_name +'</a><br />\
                               Request ID: ' + data['id'] + '<br />\
                               Name: ' + data['name'] + '<br />' +
                               data['message'] + 
